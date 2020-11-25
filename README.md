@@ -6,7 +6,7 @@ here comes mock-up
 
 ## UX
 
-(Original wireframe)[assets/images/wireframes]
+[Original wireframe](assets/images/wireframes)
 
 ### Features
 
