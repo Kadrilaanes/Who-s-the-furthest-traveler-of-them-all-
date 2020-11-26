@@ -6,10 +6,10 @@ here comes the mock-up
 
 ## UX
 
-[Original wireframe 1](assets/images/wireframes/1.jpg)
-[Original wireframe 2](assets/images/wireframes/2.jpg)
-[Original wireframe 3](assets/images/wireframes/3.jpg)
-[Original wireframe 4](assets/images/wireframes/4.jpg)
+[Original wireframe](assets/images/wireframes/1.jpg)
+[Original wireframe](assets/images/wireframes/2.jpg)
+[Original wireframe](assets/images/wireframes/3.jpg)
+[Original wireframe](assets/images/wireframes/4.jpg)
 
 ### Features
 
