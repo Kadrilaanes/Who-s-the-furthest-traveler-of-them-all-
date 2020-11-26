@@ -1,16 +1,19 @@
 # "Who's the Furthest Traveler of Them All"
 ### A travel destination discovery through a visual guessing game for MS2 project at Code Institute.
 
-here comes mock-up
+here comes the mock-up
 
 
 ## UX
 
-[Original wireframe](assets/images/wireframes)
+[Original wireframe 1](assets/images/wireframes/1.jpg)
+[Original wireframe 2](assets/images/wireframes/2.jpg)
+[Original wireframe 3](assets/images/wireframes/3.jpg)
+[Original wireframe 4](assets/images/wireframes/4.jpg)
 
 ### Features
 
-#### Existing Feate=ures
+#### Existing Features
 
 #### Features Left to Implement
 
