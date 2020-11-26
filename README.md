@@ -23,7 +23,7 @@ here comes the mock-up
 
 ### Bugs encountered: 
 
-* Initially wasn't able to connect HTML id "question" <div> to displaying images instead of the source URL. Tried using just .source method with image element on HTML file. And tried using .innerHTML method while using regular <div> on HTML file. 
+* Initially wasn't able to connect HTML id "question" div to displaying images instead of the source URL. Tried using just .source method with image element on HTML file. And tried using .innerHTML method while using regular div on HTML file. 
 
 ## Deployment
 
