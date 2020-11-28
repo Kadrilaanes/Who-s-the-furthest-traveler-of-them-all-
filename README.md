@@ -1,5 +1,6 @@
 # "Who's the Furthest Traveler of Them All"
-### A travel destination discovery through a visual guessing game for MS2 project at Code Institute.
+
+### A travel destination discovery through a visual guessing game for Milestone Project 2 at Code Institute. It should inspire the user to discover new places around the world with the purpose of creating either new destination ideas or simply evoking appreciation to our planet's nature and cultures in the means of preserving them. 
 
 here comes the mock-up
 
