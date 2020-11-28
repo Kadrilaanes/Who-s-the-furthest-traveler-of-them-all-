@@ -1,7 +1,16 @@
+/* Correct & Incorrect */
+
 .correct {
     background-color: green;
 }
 
 .incorrect {
     background-color: red;
+}
+
+/* #hud spacing */
+
+#hud {
+    display: flex;
+    justify-content: space-evenly;
 }
