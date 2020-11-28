@@ -7,8 +7,11 @@ here comes the mock-up
 ## UX
 
 [Original wirefeframe: Home page](https://raw.githubusercontent.com/Kadrilaanes/Who-s-the-furthest-traveler-of-them-all-/master/assets/images/wireframes/1.jpg)
+
 [Original wireframe: Results & info](https://raw.githubusercontent.com/Kadrilaanes/Who-s-the-furthest-traveler-of-them-all-/master/assets/images/wireframes/2.jpg)
+
 [Original wireframe: Library](https://raw.githubusercontent.com/Kadrilaanes/Who-s-the-furthest-traveler-of-them-all-/master/assets/images/wireframes/3.jpg)
+
 [Original wireframe: Contact form](https://raw.githubusercontent.com/Kadrilaanes/Who-s-the-furthest-traveler-of-them-all-/master/assets/images/wireframes/4.jpg)
 
 ## Features
