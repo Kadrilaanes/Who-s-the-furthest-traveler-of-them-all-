@@ -6,10 +6,10 @@ here comes the mock-up
 
 ## UX
 
-[Original wireframe](https://raw.githubusercontent.com/Kadrilaanes/Who-s-the-furthest-traveler-of-them-all-/master/assets/images/wireframes/1.jpg)
-[Original wireframe](https://raw.githubusercontent.com/Kadrilaanes/Who-s-the-furthest-traveler-of-them-all-/master/assets/images/wireframes/2.jpg)
-[Original wireframe](https://raw.githubusercontent.com/Kadrilaanes/Who-s-the-furthest-traveler-of-them-all-/master/assets/images/wireframes/3.jpg)
-[Original wireframe](https://raw.githubusercontent.com/Kadrilaanes/Who-s-the-furthest-traveler-of-them-all-/master/assets/images/wireframes/4.jpg)
+[Original wirefeframe: Home page](https://raw.githubusercontent.com/Kadrilaanes/Who-s-the-furthest-traveler-of-them-all-/master/assets/images/wireframes/1.jpg)
+[Original wireframe: Results & info](https://raw.githubusercontent.com/Kadrilaanes/Who-s-the-furthest-traveler-of-them-all-/master/assets/images/wireframes/2.jpg)
+[Original wireframe: Library](https://raw.githubusercontent.com/Kadrilaanes/Who-s-the-furthest-traveler-of-them-all-/master/assets/images/wireframes/3.jpg)
+[Original wireframe: Contact form](https://raw.githubusercontent.com/Kadrilaanes/Who-s-the-furthest-traveler-of-them-all-/master/assets/images/wireframes/4.jpg)
 
 ## Features
 
@@ -18,6 +18,24 @@ here comes the mock-up
 ### Features Left to Implement
 
 ## Technologies Used
+
+* [HTML, or Hyper Text Markup Language](https://developer.mozilla.org/en-US/docs/Web/HTML): Used to construct all the pages of this web site.
+
+* [CSS, or Cascading Style Sheets](https://www.w3.org/Style/CSS/Overview.en.html): Is used to style various elements on a web page via coloring, spacing etc.
+
+* [Bootstrap 4](https://getbootstrap.com/): A CSS framework that assists the programmer in creating responsive, mobile first front-end web sites.
+
+* [Gitpod](https://www.gitpod.io/): An online IDE also used for creating & saving code that runs in a browser.
+
+* [Git](https://git-scm.com/): A version control system for tracking changes in source code during software development.
+
+* [GitHub](https://github.com): A company that provides hosting for software development version control using Git.
+
+* [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools): A set of web developer tools built directly into the Google Chrome browser.
+
+* [HTML Formatting](https://www.freeformatter.com/html-formatter.html): to format the GitHub files separately.
+
+* [Javascript](https://www.javascript.com/): to make the website interactive and the quiz functional.
 
 ## Testing
 
