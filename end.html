@@ -8,12 +8,12 @@
 		integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
 		integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-	<title>Furthest Traveler Quiz</title>
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+	<title>Well done!</title>
 </head>
 
 <body>
-	<!-- Bootstrap Navbar -->
+<!-- Bootstrap Navbar -->
 
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
 		<a class="navbar-brand" href="index.html"><i class="fas fa-home"></i></a>
@@ -32,41 +32,16 @@
 		</div>
 	</nav>
 
-	<!-- Quiz body-->
+    <!-- Conclusion section-->
 
-	<div>
-		<h3>"Mirror, mirror on the wall-<br></h3>
-			<h3>who's the furthest traveler of them all?</h3>
+	<div class="container-fluid">
+		<div id="end">
+        <h2 id="finalScore"></h2>
+        <h3 id="result"></h3>
+        </div>
+
 	</div>
-
-	<section class="container-fluid">
-	<div id="hud">
-		<div id="hud-item">
-			<p class="hud-prefix">Question</p>
-			<h3 class="hud-main-text" id="questionCounter"></h3>
-		</div>
-		<div id="hud-item2">
-			<p class="hud-prefix">Score</p>
-			<h3 class="hud-main-text" id="score"></h3>
-		</div>
-	</div>
-		  <div id="question"></div>
-		<div class="choice-container">
-			<p class="choice-text" data-number="1">Choice 1</p>
-		</div>
-		<div class="choice-container">
-			<p class="choice-text" data-number="2">Choice 2</p>
-		</div>
-	</section>
-
-     
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-	</script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-		integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
-	</script>
-    <script src="assets/js/quiz.js"></script>
+<script src="assets/js/end.js"></script>
 </body>
 
 </html>
