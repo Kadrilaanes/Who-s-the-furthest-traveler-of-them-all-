@@ -23,7 +23,9 @@ here comes the mock-up
 
 ### Bugs encountered: 
 
-* Initially wasn't able to connect HTML id "question" div to displaying images instead of the source URL. Tried using just .source method with image element on HTML file. And tried using .innerHTML method while using regular div on HTML file. 
+* Initially wasn't able to connect HTML id "question" div to displaying images instead of the source URL. Tried using just .source method with image element on HTML file. And tried using .innerHTML method while using regular div on HTML file. Solution?
+
+* Had to learn about local storage data format which is stored as strings. To get the function displayResult to functionate, had to use parseInt first. I made the mistake of accessing the declaration of result before I defined it, so it didn't display the wanted result option. Placing the declaration below the function, displays the result option on the end.html page. 
 
 ## Deployment
 
