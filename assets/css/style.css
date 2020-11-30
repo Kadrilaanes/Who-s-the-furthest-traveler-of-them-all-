@@ -6,7 +6,7 @@
 /* navbar */
 
 .navbar-custom {
-    background-color: rgb(224,224,224, 0.5);
+    background-color: rgb(224,224,224, 0.3);
 }
 
 /* Image display */
@@ -15,6 +15,23 @@
     height: 100vh;
     width: 100vw;
     object-fit: cover;
+}
+
+.image-div {
+    position: relative;
+}
+
+/* Slogan */
+
+.slogan {
+    position: absolute;
+    left: 30px;
+    top: 60px;
+}
+
+.slogan>h3 {
+    font-size: 22px;
+    color: #F6F9F8;
 }
 
 /* Correct & Incorrect */
@@ -27,9 +44,19 @@
     background-color: red;
 }
 
-/* #hud spacing */
+/* #hud + choices  */
 
-#hud {
-    display: flex;
-    justify-content: space-evenly;
+.hud-choices {
+    position: absolute;
+    top: 75%;
+    left: 12%;
+    color: #F6F9F8;
+}
+
+#hud-item2 {
+    padding-left: 40px;
+}
+
+.choice2 {
+    padding-left: 40px;
 }
