@@ -9,188 +9,192 @@ let score = 0;
 let questionCounter = 0;
 let availableQuesions = [];
 
+// my custom array of objects
+
 let questions = [
     {
-        question: document.getElementById("question").innerHTML = `<img src="https://i.ibb.co/zNd7tCw/Artists-Palette-Furnace-Creek-USA.jpg">`,
+        question: document.getElementById("question").innerHTML = `<img id="image" src="https://i.ibb.co/zNd7tCw/Artists-Palette-Furnace-Creek-USA.jpg">`,
         choice1: "Rainbow Mountain, Cusco, Peru",
         choice2: "Artists Palette, Furnace Creek, USA",
         answer: 2,
     },
     {
-        question: document.getElementById("question").src = "https://i.ibb.co/PYGrFrr/Auckland-New-Zealand.jpg",
+        question: document.getElementById("question").innerHTML = `<img id="image" src="https://i.ibb.co/PYGrFrr/Auckland-New-Zealand.jpg">`,
         choice1: "Auckland, New Zealand",
         choice2: "Toronto, Canada",
         answer: 1,
     },
     {
-        question: document.getElementById("question").src = "https://i.ibb.co/0ZXxq6k/Cape-Town-South-Africa.jpg",
+        question: document.getElementById("question").innerHTML = `<img id="image" src="https://i.ibb.co/0D9q30s/Cape-Town-landscape.jpg">`,
         choice1: "Algarve, Portugal",
         choice2: "Cape Town, South Africa",
         answer: 2,
     },
     {
-        question: document.getElementById("question").src = "https://i.ibb.co/Y2C5Vy8/Chocolate-Hills-Bohol-Island-Philippines.jpg",
+        question: document.getElementById("question").innerHTML = `<img id="image" src="https://i.ibb.co/Y2C5Vy8/Chocolate-Hills-Bohol-Island-Philippines.jpg">`,
         choice1: "Green Hills of Albay, Philippines",
         choice2: "Chocolate Hills, Bohol Island, Philippines",
         answer: 2,
     },
     {
-        question: document.getElementById("question").src = "https://i.ibb.co/gFnDywh/Faroe-Island-Denmark.jpg",
+        question: document.getElementById("question").innerHTML = `<img id="image" src="https://i.ibb.co/5x75Tvw/Faroe-Island-Denmark.jpg">`,
         choice1: "Faroe Island, Denmark",
         choice2: "Gullfoss, Iceland",
         answer: 1,
     },
     {
-        question: document.getElementById("question").src = "https://i.ibb.co/ydrKtLN/Goblin-Valley-Utah-USA.jpg",
+        question: document.getElementById("question").innerHTML = `<img id="image" src="https://i.ibb.co/ydrKtLN/Goblin-Valley-Utah-USA.jpg">`,
         choice1: "Goblin Valley, Utah, USA",
         choice2: "Canyon de Chelly, Arizona, USA",
         answer: 1,
     },
     {
-        question: document.getElementById("question").src = "https://i.ibb.co/vzhVrZS/Golden-Bridge-Ba-Na-Hills-Vietnam.jpg",
+        question: document.getElementById("question").innerHTML = `<img id="image" src="https://i.ibb.co/vzhVrZS/Golden-Bridge-Ba-Na-Hills-Vietnam.jpg">`,
         choice1: "Skywalk & Eagle Point, Grand Canyon, USA ",
         choice2: "Golden Bridge, Ba Na Hills, Vietnam",
         answer: 2,
     },
     {
-        question: document.getElementById("question").src = "https://i.ibb.co/vBp9crM/Hand-of-the-Desert-Chile.jpg",
+        question: document.getElementById("question").innerHTML = `<img id="image" src="https://i.ibb.co/vBp9crM/Hand-of-the-Desert-Chile.jpg">`,
         choice1: "Patagonia, Arentina",
         choice2: "Atacama Desert, Chile",
         answer: 2,
     },
     {
-        question: document.getElementById("question").src = "https://i.ibb.co/5sQgVBG/Grand-Canyon-USA.jpg",
+        question: document.getElementById("question").innerHTML = `<img id="image" src="https://i.ibb.co/5sQgVBG/Grand-Canyon-USA.jpg">`,
         choice1: "Grand Canyon, Arizona, USA",
         choice2: "Kings Canyon, Australia",
         answer: 1,
     },
     {
-        question: document.getElementById("question").src = "https://i.ibb.co/cDHF31Y/Iceland.jpg",
+        question: document.getElementById("question").innerHTML = `<img id="image" src="https://i.ibb.co/z65ZQRW/Iceland-landscape.jpg">`,
         choice1: "Jökulsárgljúfur, Iceland",
         choice2: "Waimea Canyon, Hawaii",
         answer: 1,
     },
     {
-        question: document.getElementById("question").src = "https://i.ibb.co/1MG9cPH/Lencois-Maranhenses-Brazil3.jpg",
+        question: document.getElementById("question").innerHTML = `<img id="image" src="https://i.ibb.co/1MG9cPH/Lencois-Maranhenses-Brazil3.jpg">`,
         choice1: "Lencois Maranhenses, Brazil",
         choice2: "Bahariya White Desert, Egypt",
         answer: 1,
     },
     {
-        question: document.getElementById("question").src = "https://i.ibb.co/ZHx0Hj2/Manarola-Italy.jpg",
+        question: document.getElementById("question").innerHTML = `<img id="image" src="https://i.ibb.co/ZHx0Hj2/Manarola-Italy.jpg">`,
         choice1: "Taormina, Sicily, Italy",
         choice2: "Manarola, Italy",
         answer: 2,
     },
     {
-        question: document.getElementById("question").src = "https://i.ibb.co/Scnhfr9/Maya-Bay-Ko-Phi-Phi-Thailand.jpg",
+        question: document.getElementById("question").innerHTML = `<img id="image" src="https://i.ibb.co/d7QNqb9/El-Nido-landscape.jpg">`,
         choice1: "Ha Long Bay, Vietnam",
         choice2: "Maya Bay, Ko Phi Phi, Thailand",
         answer: 2,
     },
     {
-        question: document.getElementById("question").src = "https://i.ibb.co/wLTkNtR/Nairobi-Kenya.jpg",
+        question: document.getElementById("question").innerHTML = `<img id="image" src="https://i.ibb.co/wLTkNtR/Nairobi-Kenya.jpg">`,
         choice1: "Nairobi, Kenya",
         choice2: "Antananarivo, Madagaskar",
         answer: 1,
     },
     {
-        question: document.getElementById("question").src = "https://i.ibb.co/B4h0fKG/Pamukkale-Turkey.jpg",
-        choice1: "Parmukkale, Turkey",
+        question: document.getElementById("question").innerHTML = `<img id="image" src="https://i.ibb.co/zHnWhzR/Pamukkale-new.jpg">`,
+        choice1: "Pamukkale, Turkey",
         choice2: "White Sands National Park, New Mexico, USA",
         answer: 1,
     },
     {
-        question: document.getElementById("question").src = "https://i.ibb.co/dKHr3T2/Paris-France.jpg",
+        question: document.getElementById("question").innerHTML = `<img id="image" src="https://i.ibb.co/dKHr3T2/Paris-France.jpg">`,
         choice1: "Antwerpen, Belgium",
         choice2: "Paris, France",
         answer: 2,
     },
     {
-        question: document.getElementById("question").src = "https://i.ibb.co/FnRsx9V/Pena-Palace-Sintra-Portugal.jpg",
+        question: document.getElementById("question").innerHTML = `<img id="image" src="https://i.ibb.co/YhPNW9h/Pena-castle-landscape.jpg">`,
         choice1: "Pena Palace, Sintra, Portugal",
         choice2: "Belem Tower, Lissabon, Portugal",
         answer: 1,
     },
     {
-        question: document.getElementById("question").src = "https://i.ibb.co/9w3P3gj/Prague-Check-Rep.jpg",
+        question: document.getElementById("question").innerHTML = `<img id="image" src="https://i.ibb.co/9w3P3gj/Prague-Check-Rep.jpg">`,
         choice1: "London, United Kingdom",
         choice2: "Prague, Check Republic",
         answer: 2,
     },
     {
-        question: document.getElementById("question").src = "https://i.ibb.co/ygDVSFv/Rainbow-Mountain-Cusco-Peru.jpg",
+        question: document.getElementById("question").innerHTML = `<img id="image" src="https://i.ibb.co/ygDVSFv/Rainbow-Mountain-Cusco-Peru.jpg">`,
         choice1: "Rainbow Mountain, Cusco, Peru",
         choice2: "Mountains of Tabriz, Iran",
         answer: 1,
     },
     {
-        question: document.getElementById("question").src = "https://i.ibb.co/TWzp1xN/Raquira-Colombia.jpg",
+        question: document.getElementById("question").innerHTML = `<img id="image" src="https://i.ibb.co/wcD37F2/Raquira-Colombia.jpg">`,
         choice1: "Buenos Aires, Argentina",
         choice2: "Raquira, Colombia",
         answer: 2,
     },
     {
-        question: document.getElementById("question").src = "https://i.ibb.co/865V9vm/Rovaniemi-Finland.jpg",
+        question: document.getElementById("question").innerHTML = `<img id="image" src="https://i.ibb.co/0rk87kh/Lapland-Finland-landscape.jpg">`,
         choice1: "Riga, Latvia",
         choice2: "Rovaniemi, Finland",
         answer: 2,
     },
     {
-        question: document.getElementById("question").src = "https://i.ibb.co/X7VPbz4/Sao-Paulo-Brazil.jpg",
+        question: document.getElementById("question").innerHTML = `<img id="image" src="https://i.ibb.co/X7VPbz4/Sao-Paulo-Brazil.jpg">`,
         choice1: "Sao Paulo, Brazil",
         choice2: "New York, USA",
         answer: 1,
     },
     {
-        question: document.getElementById("question").src = "https://i.ibb.co/DMpJRFs/The-Giant-s-Causeway-North-Ireland.jpg",
+        question: document.getElementById("question").innerHTML = `<img id="image" src="https://i.ibb.co/crr50xJ/Giant-s-Causeway-landscape.jpg">`,
         choice1: "Beach of the Cathedrals, Galicia, Spain",
         choice2: "The Giant's Causeway, Ireland",
         answer: 2,
     },
     {
-        question: document.getElementById("question").src = "https://i.ibb.co/CHg1J7q/Tibidabo-Barcelona.jpg",
-        choice1: "Temple of the Sacred Heart of Jesus, Tibidabo, Barcelona",
-        choice2: "Sagrada Familia, Barcelona",
+        question: document.getElementById("question").innerHTML = `<img id="image" src="https://i.ibb.co/zNpc1Xw/Kyoto-Japan.jpg">`,
+        choice1: "Kiyozumi Dera, Kyoto, Japan",
+        choice2: "Osaka, Japan",
         answer: 1,
     },
     {
-        question: document.getElementById("question").src = "https://i.ibb.co/Xsbg1mj/Toronto-Canada.jpg",
+        question: document.getElementById("question").innerHTML = `<img id="image" src="https://i.ibb.co/Z6NGWmK/Torontolandscape.jpg">`,
         choice1: "Tallinn, Estonia",
         choice2: "Toronto, Canada",
         answer: 2,
     },
     {
-        question: document.getElementById("question").src = "https://i.ibb.co/N2tnfX5/Trondheim-Norway.jpg",
+        question: document.getElementById("question").innerHTML = `<img id="image" src="https://i.ibb.co/N2tnfX5/Trondheim-Norway.jpg">`,
         choice1: "Trondheim, Norway",
         choice2: "Copenhagen, Denmark",
         answer: 1,
     },
     {
-        question: document.getElementById("question").src = "https://i.ibb.co/k2wdmbN/Tyrol-Italy.jpg",
+        question: document.getElementById("question").innerHTML = `<img id="image" src="https://i.ibb.co/k2wdmbN/Tyrol-Italy.jpg">`,
         choice1: "Tyrol, Italy",
         choice2: "Himalayas, Nepal",
         answer: 1,
     },
     {
-        question: document.getElementById("question").src = "https://i.ibb.co/sVs6JNV/Uch-Sharif-Pakistan.jpg",
+        question: document.getElementById("question").innerHTML = `<img id="image" src="https://i.ibb.co/sVs6JNV/Uch-Sharif-Pakistan.jpg">`,
         choice1: "Blue Mosque, Istanbul, Turkey",
         choice2: "Uch Sharif, Pakistan",
         answer: 2,
     },
     {
-        question: document.getElementById("question").src = "https://i.ibb.co/t2V8Djz/Vakil-Mosque-Shiraz-Iran.jpg",
+        question: document.getElementById("question").innerHTML = `<img id="image" src="https://i.ibb.co/t2V8Djz/Vakil-Mosque-Shiraz-Iran.jpg">`,
         choice1: "Vakil Mosque, Shiraz, Iran",
         choice2: "Al-Aqsa Mosque, Jerusalem, Israel",
         answer: 1,
     },
     {
-        question: document.getElementById("question").src = "https://i.ibb.co/phR43Tn/Zhangjiajie-Huaihua-China.jpg",
+        question: document.getElementById("question").innerHTML = `<img id="image" src="https://i.ibb.co/phR43Tn/Zhangjiajie-Huaihua-China.jpg">`,
         choice1: "Iao Valley, Maui",
         choice2: "Zhangjiajie, Huaihua, China",
         answer: 2,
     },
 ];
+
+// quiz structure from James Q. Quick, see Credits
 
 const CORRECT_BONUS = 1;
 const MAX_QUESTIONS = 30;
@@ -205,7 +209,6 @@ startGame = () => {
 getNewQuestion = () => {
     if (availableQuesions.length === 0 || questionCounter >= MAX_QUESTIONS) {
         localStorage.setItem("mostRecentScore", score);
-        //go to the end page
         return window.location.assign('/end.html');
     }
     questionCounter++;
@@ -235,9 +238,9 @@ choices.forEach((choice) => {
         const classToApply =
             selectedAnswer == currentQuestion.answer ? "correct" : "incorrect";
 
-            if(classToApply === 'correct') {
-                incrementScore(CORRECT_BONUS);
-            }
+        if (classToApply === 'correct') {
+            incrementScore(CORRECT_BONUS);
+        }
 
         selectedChoice.parentElement.classList.add(classToApply);
 
@@ -250,7 +253,7 @@ choices.forEach((choice) => {
 });
 
 incrementScore = num => {
-    score +=num;
+    score += num;
     scoreText.innerText = score;
 };
 
