@@ -11,7 +11,7 @@ let availableQuesions = [];
 
 let questions = [
     {
-        question: document.getElementById("question").innerHTML = `<img src="https://i.ibb.co/zNd7tCw/Artists-Palette-Furnace-Creek-USA.jpg"`,
+        question: document.getElementById("question").innerHTML = `<img src="https://i.ibb.co/zNd7tCw/Artists-Palette-Furnace-Creek-USA.jpg">`,
         choice1: "Rainbow Mountain, Cusco, Peru",
         choice2: "Artists Palette, Furnace Creek, USA",
         answer: 2,
