@@ -1,6 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+}
+
+body {
+    font-family: Cinzel, sans-serif;
+    font-weight: 600;
 }
 
 /* navbar */
@@ -31,17 +38,17 @@
 
 .slogan>h3 {
     font-size: 22px;
-    color: #F6F9F8;
+    color: #EBF0EE;
 }
 
 /* Correct & Incorrect */
 
 .correct {
-    background-color: green;
+  font-weight: 800;
 }
 
 .incorrect {
-    background-color: red;
+    font-weight: 400;
 }
 
 /* #hud + choices  */
@@ -50,13 +57,27 @@
     position: absolute;
     top: 75%;
     left: 12%;
-    color: #F6F9F8;
+    color: #EBF0EE;
 }
 
 #hud-item2 {
     padding-left: 40px;
 }
 
+.choice1 {
+    font-size: 20px;
+    transition: transform .2s;
+}
+
 .choice2 {
-    padding-left: 40px;
+    font-size: 20px;
+    padding-left: 60px;
+    transition: transform .2s;
+}
+
+.choice1:hover {
+    transform: scale(1.2);
+}
+.choice2:hover {
+    transform: scale(1.2);
 }
