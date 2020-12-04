@@ -13,7 +13,24 @@ body {
 /* navbar */
 
 .navbar-custom {
-    background-color: rgb(224,224,224, 0.3);
+    background-color: rgb(224,224,224, 0.6);
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(58,54,58)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+nav a i, li a i {
+    font-size: 20px;
+    color: #3A363A;
+}
+
+.atlas {
+    padding-right: 5em;
+}
+
+.envelope {
+    padding-right: 5em;
 }
 
 /* Image display */
@@ -31,53 +48,72 @@ body {
 /* Slogan */
 
 .slogan {
-    position: absolute;
-    left: 30px;
-    top: 60px;
+ padding-right: 320px;
+ font-weight: 600;
+ padding-top: 12px;
 }
 
-.slogan>h3 {
-    font-size: 22px;
-    color: #EBF0EE;
+.slogan>h5 {
+    font-size: 20px;
+    color: #3A363A;
 }
 
 /* Correct & Incorrect */
 
 .correct {
   font-weight: 800;
+  color: #1ED47F;
 }
 
 .incorrect {
     font-weight: 400;
+    color: #FF4736;
 }
 
 /* #hud + choices  */
 
 .hud-choices {
     position: absolute;
-    top: 75%;
-    left: 12%;
-    color: #EBF0EE;
+    top: 65%;
+    color: #3A363A;
+    background-color: rgb(224,224,224, 0.6);
+    padding-top: 10px;
+    font-weight: 600;
+}
+
+#hud-item {
+    font-weight: 600;
 }
 
 #hud-item2 {
     padding-left: 40px;
+    font-weight: 600;
 }
 
 .choice1 {
-    font-size: 20px;
+    font-size: 16px;
     transition: transform .2s;
 }
 
 .choice2 {
-    font-size: 20px;
+    font-size: 16px;
     padding-left: 60px;
     transition: transform .2s;
 }
 
 .choice1:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 .choice2:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
+}
+
+/* End-image */
+
+.end-image {
+background-image: url("https://i.ibb.co/1MG9cPH/Lencois-Maranhenses-Brazil3.jpg");
+position: relative;
+height: 100vh;
+width: 100vw;
+object-fit: cover;
 }

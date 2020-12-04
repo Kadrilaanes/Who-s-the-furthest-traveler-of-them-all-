@@ -55,9 +55,9 @@ let questions = [
         answer: 2,
     },
     {
-        question: document.getElementById("question").innerHTML = `<img id="image" src="https://i.ibb.co/vBp9crM/Hand-of-the-Desert-Chile.jpg">`,
-        choice1: "Patagonia, Arentina",
-        choice2: "Atacama Desert, Chile",
+        question: document.getElementById("question").innerHTML = `<img id="image" src="https://i.ibb.co/61SHsdS/Havana-Cuba.jpg">`,
+        choice1: "Monte Video, Urugay",
+        choice2: "Havana, Cuba",
         answer: 2,
     },
     {
@@ -79,9 +79,9 @@ let questions = [
         answer: 1,
     },
     {
-        question: document.getElementById("question").innerHTML = `<img id="image" src="https://i.ibb.co/ZHx0Hj2/Manarola-Italy.jpg">`,
+        question: document.getElementById("question").innerHTML = `<img id="image" src="https://i.ibb.co/bQgSMNF/Province-of-Matera-Italy.jpg">`,
         choice1: "Taormina, Sicily, Italy",
-        choice2: "Manarola, Italy",
+        choice2: "Province of Matera, Italy",
         answer: 2,
     },
     {
@@ -97,21 +97,21 @@ let questions = [
         answer: 1,
     },
     {
-        question: document.getElementById("question").innerHTML = `<img id="image" src="https://i.ibb.co/zHnWhzR/Pamukkale-new.jpg">`,
-        choice1: "Pamukkale, Turkey",
-        choice2: "White Sands National Park, New Mexico, USA",
+        question: document.getElementById("question").innerHTML = `<img id="image" src="https://i.ibb.co/Zd8FRdN/Petra-Jordan.jpg">`,
+        choice1: "Petra, Jordan",
+        choice2: "Valley of the Kings, Egypt",
         answer: 1,
     },
     {
-        question: document.getElementById("question").innerHTML = `<img id="image" src="https://i.ibb.co/dKHr3T2/Paris-France.jpg">`,
+        question: document.getElementById("question").innerHTML = `<img id="image" src="https://i.ibb.co/42zQYBx/Edinburgh-United-Kingdom.jpg">`,
         choice1: "Antwerpen, Belgium",
-        choice2: "Paris, France",
+        choice2: "Edinburgh, United Kingdom",
         answer: 2,
     },
     {
-        question: document.getElementById("question").innerHTML = `<img id="image" src="https://i.ibb.co/YhPNW9h/Pena-castle-landscape.jpg">`,
-        choice1: "Pena Palace, Sintra, Portugal",
-        choice2: "Belem Tower, Lissabon, Portugal",
+        question: document.getElementById("question").innerHTML = `<img id="image" src="https://i.ibb.co/TDGSNhC/Lake-Cadagno-Switzerland.jpg">`,
+        choice1: "Lake Cadagno, Switzerland",
+        choice2: "Lake Garda, Italy",
         answer: 1,
     },
     {
@@ -139,7 +139,7 @@ let questions = [
         answer: 2,
     },
     {
-        question: document.getElementById("question").innerHTML = `<img id="image" src="https://i.ibb.co/X7VPbz4/Sao-Paulo-Brazil.jpg">`,
+        question: document.getElementById("question").innerHTML = `<img id="image" src="https://i.ibb.co/dKRHt9z/Sao-Paulo-Brazil.jpg">`,
         choice1: "Sao Paulo, Brazil",
         choice2: "New York, USA",
         answer: 1,
@@ -157,9 +157,9 @@ let questions = [
         answer: 1,
     },
     {
-        question: document.getElementById("question").innerHTML = `<img id="image" src="https://i.ibb.co/Z6NGWmK/Torontolandscape.jpg">`,
-        choice1: "Tallinn, Estonia",
-        choice2: "Toronto, Canada",
+        question: document.getElementById("question").innerHTML = `<img id="image" src="https://i.ibb.co/q1qZ5dT/Tiger-s-Nest-Bhutan.jpg">`,
+        choice1: "Kioto, Japan",
+        choice2: "Tiger's Nest, Bhutan",
         answer: 2,
     },
     {
@@ -175,9 +175,9 @@ let questions = [
         answer: 1,
     },
     {
-        question: document.getElementById("question").innerHTML = `<img id="image" src="https://i.ibb.co/sVs6JNV/Uch-Sharif-Pakistan.jpg">`,
+        question: document.getElementById("question").innerHTML = `<img id="image" src="https://i.ibb.co/CmJ7Brp/Taj-Mahal.jpg">`,
         choice1: "Blue Mosque, Istanbul, Turkey",
-        choice2: "Uch Sharif, Pakistan",
+        choice2: "Taj Mahal, India",
         answer: 2,
     },
     {
