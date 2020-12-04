@@ -117,3 +117,21 @@ height: 100vh;
 width: 100vw;
 object-fit: cover;
 }
+
+#end {
+    position: absolute;
+    top: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/* Location Library */ 
+
+.library {
+    font-size: 16px;
+}
+
+.library-section {
+    padding-top: 80px;
+    padding-left: 50px;
+}
